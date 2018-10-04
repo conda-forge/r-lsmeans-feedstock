@@ -10,8 +10,8 @@ package:
 source:
   fn: lsmeans_{{ version }}.tar.gz
   url:
-    - {{ cran_mirror }}/src/contrib/lsmeans_{{ version }}.tar.gz
-    - {{ cran_mirror }}/src/contrib/Archive/lsmeans/lsmeans_{{ version }}.tar.gz
+    - https://cran.r-project.org/src/contrib/lsmeans_{{ version }}.tar.gz
+    - https://cran.r-project.org/src/contrib/Archive/lsmeans/lsmeans_{{ version }}.tar.gz
   sha256: ffccf0235854a7cae477c1141e678e64f300fe2a4a0d0545c648aa8a66a369b5
 
 build:
