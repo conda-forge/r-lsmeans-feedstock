@@ -1,4 +1,4 @@
-{% set version = '2.25-5' %}
+{% set version = '2.27-62' %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/lsmeans_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/lsmeans/lsmeans_{{ version }}.tar.gz
-  sha256: 7c332a972bb3f261e484256f494289c388cc1eda1c86669a404193017eba3cce
+  sha256: ffccf0235854a7cae477c1141e678e64f300fe2a4a0d0545c648aa8a66a369b5
 
 build:
   number: 0
@@ -23,7 +23,7 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
     - r-coda >=0.17
     - r-estimability
