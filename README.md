@@ -14,9 +14,8 @@ Summary: Obtain least-squares means for many linear, generalized linear,  and mi
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-lsmeans-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-lsmeans-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-lsmeans-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-lsmeans-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-lsmeans-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-lsmeans-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-lsmeans-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-lsmeans-feedstock)
 
 Current release info
 ====================
