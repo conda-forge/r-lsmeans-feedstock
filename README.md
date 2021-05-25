@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=lsmeans
 
 Package license: GPL-2.0-only OR GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lsmeans-feedstock/blob/master/LICENSE.txt)
 
 Summary: Obtain least-squares means for linear, generalized linear,  and mixed models. Compute contrasts or linear functions of  least-squares means, and comparisons of slopes.  Plots and compact letter displays. Least-squares means were proposed in Harvey, W (1960) "Least-squares analysis of data with unequal subclass numbers", Tech Report ARS-20-8, USDA National Agricultural Library, and discussed further in Searle, Speed, and Milliken (1980) "Population marginal means  in the linear model: An alternative to least squares means",  The American Statistician 34(4), 216-221 <doi:10.1080/00031305.1980.10483031>. NOTE: lsmeans now relies primarily on code in the 'emmeans' package. 'lsmeans' will be archived in the near future.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-lsmeans` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-lsmeans` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
